@@ -1,7 +1,26 @@
 .game-board {
+  position: relative;
   width: 80vw;
   height: 70vh;
   border: 10px solid #333;
   margin: 20px auto;
   background-color: #eee;
+}
+
+.snake {
+  height: 10px;
+  width: 12px;
+  border: 1px solid black;
+  background-color: lime;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.food {
+  width: 8px;
+  height: 8px;
+  border: 1px solid orange;
+  background-color: yellow;
+  border-radius: 50%;
+  margin: 210px auto;
 }
